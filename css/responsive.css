@@ -1,0 +1,585 @@
+@media only screen and (max-width: 1366px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    /* HOME PAGE  */
+
+    .project-tab-area {
+        padding-bottom: 50px;
+    }
+
+    .view-project-btn {
+        bottom: 20px;
+    }
+
+    .how-ul {
+        width: 72%;
+    }
+
+    .how-ul li {
+        width: 45%;
+    }
+
+    .prev {
+        left: 44%;
+    }
+
+    .next {
+        right: 44%;
+    }
+
+    .blog-info {
+        width: 50.6%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+
+    /* HOME PAGE  */
+
+    .contact {
+        justify-content: space-between;
+    }
+
+    .contact li {
+        margin-left: 0;
+    }
+
+    .slide-text {
+        max-width: 480px;
+    }
+
+    .slide-text h2 {
+        font-size: 55px;
+    }
+
+    .slide-text p {
+        font-size: 20px;
+        word-spacing: 0;
+    }
+
+    .flip-card {
+        height: 330px;
+    }
+
+    .card-area .photo img {
+        height: 330px;
+    }
+
+    .c-details h3 {
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    .overlay p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    /* TABS  */
+
+    .project-title {
+        width: 100%;
+        padding: 30px 35px;
+    }
+
+    .have-done h2 {
+        font-size: 40px;
+    }
+
+    .have-done p {
+        width: 45%;
+    }
+
+    .sub-head {
+        padding-bottom: 15px;
+    }
+
+    .tabs-main {
+        flex-wrap: wrap;
+    }
+
+    .tab-ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .tab-content-parent {
+        width: 100%;
+    }
+
+    .tab-ul li.active a {
+        border: 0;
+        border-bottom: 4px solid #e73d3a;
+    }
+
+    /* how we do  */
+
+    .planning {
+        padding-left: 0;
+        white-space: wrap;
+    }
+
+    .how-ul {
+        width: 82%;
+    }
+
+    .info-area {
+        padding: 10px 16px 30px;
+    }
+
+    .dp-name {
+        padding-bottom: 20px;
+    }
+
+    /* blog  */
+
+    .blog {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blog-info {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .blog-main .form-area {
+        max-width: 800px;
+        margin-bottom: -150px;
+    }
+
+    /* footer  */
+
+    .foot {
+        flex-wrap: wrap;
+    }
+
+    .we-build {
+        width: 100%;
+    }
+
+    .f-same {
+        width: 31%;
+    }
+
+    .social-media {
+        width: 16%;
+    }
+
+    .footer-main {
+        padding-top: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+
+    /* header  */
+
+    .head-area {
+        flex-wrap: wrap;
+    }
+
+    .logo-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-ul {
+        display: block;
+    }
+
+    .nav-area {
+        display: none;
+        padding-top: 20px;
+    }
+
+    .nav-ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    .menubar i {
+        font-size: 20px;
+    }
+
+    .we-do-main {
+        height: 500px;
+    }
+    .how-ul li p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .form-area-main {
+        display: none;
+    }
+
+    .form-area {
+        max-width: 370px;
+        padding: 28px 20px 35px;
+    }
+
+    .banner .swiper-slide {
+        position: relative;
+        height: 500px;
+    }
+
+    .slide-text {
+        bottom: 70px;
+    }
+
+    .slide-text h2 {
+        word-spacing: 0;
+    }
+
+    .slide-text p {
+        word-spacing: 0;
+    }
+
+    .color-to-life-area {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .welcome {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 70px;
+    }
+
+    .welcome-photo {
+        width: 62%;
+    }
+
+    .needs-color {
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+
+    .needs-color .color-to-life-area {
+        padding-right: 0;
+    }
+
+    .color-to-life h3 {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .color-to-life .text p {
+        padding-bottom: 10px;
+    }
+
+    .color-to-life h2 span {
+        display: inline-block;
+    }
+
+    .solution-main {
+        background-position: right;
+    }
+
+    .solution .details h2 {
+        font-size: 25px;
+    }
+
+    .solution .details h3 {
+        font-size: 35px;
+    }
+
+    .details a img {
+        width: 20px;
+    }
+
+    .calling-area span {
+        font-size: 14px;
+    }
+
+
+    .service-main {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .card-ul {
+        flex-wrap: wrap;
+    }
+
+    .card-ul li {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+
+    .c-details h3 {
+        font-size: 20px;
+    }
+
+
+    .tab-ul2 li a {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+
+    .tab-ul2 li {
+        margin-right: 5px;
+    }
+
+    .tab-ul li.active a {
+        font-size: 22px;
+    }
+
+    .photo-frame-ul li {
+        width: 49%;
+        margin-bottom: 15px;
+    }
+
+    .project-tab-area {
+        padding-bottom: 63px;
+    }
+
+
+    .compare-ul {
+        flex-wrap: wrap;
+    }
+
+    .compare-ul li {
+        width: 49%;
+        margin-bottom: 35px;
+    }
+
+    .title-sec p {
+        width: 85%;
+    }
+
+    .how-ul li p {
+        font-size: 17px;
+    }
+
+    .prev {
+        left: 41%;
+    }
+
+    .next {
+        right: 41%;
+    }
+
+
+
+    .f-same {
+        padding-top: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .contact li a {
+        font-size: 12px;
+    }
+
+    .contact li.mail-area {
+        display: none;
+    }
+
+    .logo-area a {
+        max-width: 130px;
+        max-height: 37px;
+    }
+
+
+    .welcome-main {
+        padding-top: 45px;
+        padding-bottom: 80px;
+    }
+
+    .welcome-photo {
+        width: 85%;
+    }
+
+    .color-to-life h2 {
+        font-size: 40px;
+    }
+
+    .title-sec h2 {
+        font-size: 40px;
+    }
+
+    .c-details h3 {
+        font-size: 16px;
+    }
+
+    .accordion-container>h2 {
+        font-size: 40px;
+    }
+
+    .faq {
+        padding-top: 37px;
+        padding-bottom: 52px;
+    }
+
+    .review-main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .prev {
+        left: 36%;
+    }
+
+    .next {
+        right: 36%;
+    }
+
+
+
+
+    .how-ul {
+        width: 77%;
+    }
+
+    .how-ul li {
+        width: 100%;
+    }
+
+    .we-do-main {
+        height: auto;
+    }
+
+
+    .blog-details {
+        flex-wrap: wrap;
+    }
+
+    .blog-card {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .blog-info {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .f-same {
+        width: 100%;
+        padding-top: 55px;
+    }
+
+    .foot-ul li {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+
+    .f-text p:last-child {
+        padding-bottom: 0;
+    }
+
+    .foot-ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .contact-ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .social-media {
+        padding-bottom: 20px;
+    }
+
+    .sub-footer {
+        padding: 25px 0;
+    }
+
+    .sub-footer a {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+    .sub-footer p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .contact li a {
+        font-size: 10px;
+    }
+
+    .nav-ul li a {
+        font-size: 13px;
+    }
+
+    .slide-text h2 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+
+    .slide-text {
+        max-width: 250px;
+        bottom: 30px;
+    }
+
+    .slide-text p {
+        font-size: 14px;
+    }
+
+    .banner .swiper-slide {
+        position: relative;
+        height: 270px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+    }
+
+    .banner .swiper-pagination {
+        bottom: 10px;
+    }
+
+    .welcome-main {
+        padding-top: 25px;
+        padding-bottom: 70px;
+    }
+
+    .sub-head {
+        font-size: 12px;
+    }
+    .color-to-life h2 {
+        font-size: 25px;
+        line-height: normal;
+    }
+    .title-sec h2 {
+        font-size: 25px;
+    }
+    .color-to-life h3 {
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+    .color-to-life .text p {
+        font-size: 14px;
+    }
+    .welcome-photo {
+        height: 215px;
+    }
+
+
+}

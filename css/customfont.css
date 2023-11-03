@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Regular';
+    src: url('fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Light';
+    src: url('fonts/PlusJakartaSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Extra light';
+    src: url('fonts/PlusJakartaSans-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Italic';
+    src: url('fonts/PlusJakartaSans-LightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Semibold';
+    src: url('fonts/PlusJakartaSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bold';
+    src: url('fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Extra Bold';
+    src: url('fonts/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bold Italic';
+    src: url('fonts/PlusJakartaSans-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('fonts/ARLRDBD.ttf') format('truetype');
+}
