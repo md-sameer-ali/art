@@ -25,7 +25,7 @@ jQuery(function($){
     });
     $('.sub-menu a').each(function() {
       if (this.href === path) {
-        $('.dropdown a').addClass('active-page');
+        $('.dropdown > a').addClass('active-page');
       }
     });
 
@@ -33,6 +33,18 @@ jQuery(function($){
         $(".nav-area").slideToggle();
         $(this).toggleClass("cross-active")
     })
+    $(".dropdown > a").on("click" , function(e){
+        e.preventDefault();
+        $(".sub-menu").toggleClass("sub-menu-active");
+        $(".dropdown-overlay").toggle();
+    })
+    $(".dropdown-overlay").on("click" , function(){
+        $(".sub-menu").removeClass("sub-menu-active");
+        $(this).toggle();
+    })
+
+    $(".contact-area-main").parent().find(".footer-main").addClass("contact-footer")
+
 })
 $(document).ready(function () {
     // Show the first tab and hide the rest
