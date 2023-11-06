@@ -899,6 +899,17 @@
         padding-bottom: 40px;
         font-size: 40px;
     }
+    .overlay-black{
+        padding: 10px;
+    }
+    .overlay-black h4 {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .overlay-black P {
+        font-size: 10px;
+        font-family: 'Medium';
+    }
 
 
 
@@ -943,6 +954,7 @@
 
     .menubar i {
         font-size: 16px;
+        padding-right: 5px;
     }
 
     .swiper-pagination-bullet {
@@ -1282,7 +1294,7 @@
     }
 
     .blog-main {
-        padding-top: 30px;
+        padding-top: 35px;
     }
 
     .view-blog h2 {
@@ -1307,7 +1319,7 @@
     }
 
     .blog-card {
-        padding-bottom: 20px;
+        padding-bottom: 25px;
     }
 
     .banner-form .details-area input::placeholder {
@@ -1408,7 +1420,7 @@
     }
 
     .home-painting-main {
-        padding: 30px 0 35px;
+        padding: 30px 0 30px;
     }
 
     .home-painting p {
