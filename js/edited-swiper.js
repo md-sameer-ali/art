@@ -1,9 +1,9 @@
 var swiper = new Swiper(".mySwiper", {
     speed: 1000,
-    // autoplay: {
-    //   delay: 2000,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
     loop: true,
     pagination: {
       el: ".swiper-pagination",
